@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. 
-    
+    p El camino emprendedor está compuesto por una serie de etapas clave que permiten a los individuos transformar ideas en proyectos sostenibles con impacto social y económico. Este proceso requiere comprender el entorno legal, identificar las dimensiones que influyen en el emprendimiento, asumir un rol activo como agente de cambio, cumplir con los procesos de creación y formalización, y reconocer la importancia del ecosistema emprendedor en el fortalecimiento de iniciativas innovadoras.
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
       .col-auto
