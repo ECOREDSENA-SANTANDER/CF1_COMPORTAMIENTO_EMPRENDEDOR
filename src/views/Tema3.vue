@@ -83,7 +83,7 @@
     .row.fondo3.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
       .col-lg-12
     
-        .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+        .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
           .col-lg-3.col-md-5.col-8.mb-4
             img.d-none.d-lg-block(src='@/assets/curso/tema3/5.png', alt='')
           .col-lg-9.mb-0
@@ -104,30 +104,33 @@
                 .col-lg-12
                   p.mb-0 El fracaso no se concibe como un obstáculo definitivo, sino como una fuente de aprendizaje. El emprendedor resiliente analiza sus errores, identifica oportunidades de mejora y desarrolla estrategias de ajuste para futuros intentos, asumiendo una actitud proactiva frente a los desafíos.
 
-    .row.justify-content-center.align-items-center.fondo4.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
-      .col-lg-10
-
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-12
-            .row.justify-content-center.align-items-center
-              .col-lg-5
-                .tarjeta.tarjeta-flip.color-primario
-                  .tarjeta-flip__contenedor.hei
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/6.png')})`}")
-                    .tarjeta-flip__contenido.p-5
-                      h3.bg4.p-0.mb-0.ps-3.pe-3.text-white.text-center.my-5 Un perfil 
-                      h3.bg4.p-0.mb-4.ps-3.pe-3.text-white.text-center en constante evolución
-                      p.mb-5.my-5.text-center  El perfil del emprendedor no es estático; evoluciona de manera permanente a partir de sus experiencias y aprendizajes.
-              .col-lg-5
-                .tarjeta.tarjeta-flip.color-primario
-                  .tarjeta-flip__contenedor.hei
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/7.png')})`}")
-                    .tarjeta-flip__contenido.p-5
-                      h3.bg4.p-0.mb-0.ps-3.pe-3.text-white.text-center.my-5 Un perfil 
-                      h3.bg4.p-0.mb-4.ps-3.pe-3.text-white.text-center en constante evolución
-                      p.mb-5.my-5.text-center El emprendedor no es un individuo excepcional desde su origen, sino una persona común que, a través del trabajo constante, la dedicación y la determinación, convierte una oportunidad identificada en un proyecto empresarial exitoso.
-
-
+        .row.justify-content-center.align-items-center.fondo4.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
+          .col-lg-10
+    
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-12
+                .row.justify-content-center.align-items-center.mb-0
+                  .col-lg-5.col-md-6.mb-lg-0.mb-4.mb-md-0
+                    .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+                      .indicador--hover(v-if="indicadorTarjetaFlip")
+                      .tarjeta-flip__contenedor
+                        .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/6.png')})`}")
+                          h5.py-5.mt-5.text-center #[.bgw.p-2.my-5.ps-5.pe-5 Perfil] 
+                        .tarjeta-flip__contenido.p-lg-5.p-md-3.p-4
+                          h3.bg4.p-0.mb-0.ps-3.pe-3.text-white.text-center.my-5 Un perfil 
+                          h3.bg4.p-0.mb-4.ps-3.pe-3.text-white.text-center en constante evolución
+                          p.mb-5.my-5.text-center El perfil del emprendedor no es estático; evoluciona de manera permanente a partir de sus experiencias y aprendizajes.
+                  .col-lg-5.col-md-6
+                    .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+                      .indicador--hover(v-if="indicadorTarjetaFlip")
+                      .tarjeta-flip__contenedor
+                        .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/7.png')})`}")
+                          h5.py-5.mt-5.text-center #[.bgw.p-2.my-5.ps-5.pe-5 Perfil] 
+                        .tarjeta-flip__contenido.p-lg-5.p-md-3.p-4
+                          h3.bg4.p-0.mb-0.ps-3.pe-3.text-white.text-center.my-5 Un perfil 
+                          h3.bg4.p-0.mb-4.ps-3.pe-3.text-white.text-center en constante evolución
+                          p.mb-0.my-4.text-center El emprendedor no es un individuo excepcional desde su origen, sino una persona común que, a través del trabajo constante, la dedicación y la determinación, convierte una oportunidad identificada en un proyecto empresarial exitoso.
+    
     .titulo.mb-lg-5.mb-md-5.mb-5.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
       h3.mb-0.mx-4.text-white Motivaciones para emprender
