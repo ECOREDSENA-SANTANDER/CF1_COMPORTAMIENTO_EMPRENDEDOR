@@ -189,7 +189,7 @@ export default {
         {
           id: 8,
           texto:
-            'Según <em>Isenberg,</em> el ecosistema emprendedor se compone de seis dominios interdependientes que afectan la creación de empresas.',
+            'Según Isenberg, el ecosistema emprendedor se compone de seis dominios interdependientes que afectan la creación de empresas.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

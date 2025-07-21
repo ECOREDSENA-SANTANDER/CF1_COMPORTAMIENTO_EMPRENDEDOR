@@ -115,15 +115,15 @@
                   .bg2.p-2.mb-4
                     h4.mb-0.ps-3.pe-3 A. Fases de la actividad económica
                   h5.mb-2 Producción
-                  p.mb-4 Esta etapa consiste en la elaboración de bienes y prestación de servicios; aquí se define qué productos se van a ofrecer, qué necesidades se desean satisfacer y qué recursos se van a emplear. Esta actividad es liderada por las empresas, las cuales actúan como unidades productivas al transformar insumos en productos con valor agregado.
+                  p.mb-4 Esta etapa consiste en la elaboración de bienes y prestación de servicios; aquí se define qué productos se van a ofrecer, #[b qué necesidades se desean satisfacer y qué recursos se van a emplear]. Esta actividad es liderada por las empresas, las cuales actúan como unidades productivas al transformar insumos en productos con valor agregado.
                   h5.mb-2 Distribución
-                  p.mb-lg-4.mb-0 Una vez producidos los bienes y servicios, es necesario ponerlos al alcance del consumidor. La distribución conecta la oferta con la demanda, y aunque puede estar a cargo de las mismas empresas productoras, también puede involucrar intermediarios especializados (mayoristas, minoristas, plataformas digitales, entre otros).
+                  p.mb-lg-4.mb-0 Una vez producidos los bienes y servicios, es necesario ponerlos al alcance del consumidor. #[b La distribución conecta la oferta con la demanda], y aunque puede estar a cargo de las mismas empresas productoras, también puede involucrar intermediarios especializados (mayoristas, minoristas, plataformas digitales, entre otros).
                 .col-lg-4.col-md-7.col-10.mb-4
                   img.img-a.img-t.d-none.d-lg-block.box(src='@/assets/curso/tema1/10.png')
                 .row.justify-content-center.align-items-center.ps-0
                   .col-lg-11
                     h5.mb-2 Consumo
-                    p.mb-0 Es la fase final, en la que los consumidores adquieren los bienes y servicios disponibles en el mercado. Su decisión de compra está determinada por sus preferencias, necesidades y capacidad económica (recursos monetarios disponibles).
+                    p.mb-0 Es la fase final, en la que los #[b consumidores adquieren los bienes y servicios disponibles en el mercado]. Su decisión de compra está determinada por sus preferencias, necesidades y capacidad económica (recursos monetarios disponibles).
               
               .row.justify-content-center.align-items-end(titulo="Paso 2")
                 .col-lg-7
@@ -148,7 +148,7 @@
                     ul.lista-ul
                       li.d-flex.mb-4
                         i.fas.fa-circle-check
-                        p.mb-0 #[b Capacidades tecnológicas o conocimiento] (factor empresarial o innovación): se refiere a la capacidad de organizar los otros factores productivos, generar valor agregado e introducir mejoras tecnológicas o procesos innovadores. A veces también se denomina “habilidad empresarial” o “factor humano avanzado”.
+                        p.mb-0 #[b Capacidades tecnológicas o conocimiento] (factor empresarial o innovación): se refiere a la capacidad de organizar los otros factores productivos, generar valor agregado e introducir mejoras tecnológicas o procesos innovadores. A veces también se denomina #[b “habilidad empresarial”] o #[b “factor humano avanzado”].
               
               .row.justify-content-center.align-items-end(titulo="Paso 3")
                 .col-lg-7
@@ -237,7 +237,8 @@
                   img.img-a.img-t.d-none.d-lg-block.box(src='@/assets/curso/tema1/16.png')
                 .row.justify-content-center.align-items-center.ps-0
                   .col-lg-11
-                    p.mb-0 Para que un emprendimiento se convierta en empresa, es necesario que el emprendedor cuente con capital (propio o de terceros), capacidad de gestión y una propuesta de valor clara. Esta transformación lo convierte en empresario, es decir, en un agente activo que asume riesgos, lidera procesos productivos y dinamiza el tejido económico y social.
+                    .bg5.p-4.mb-0
+                      p.mb-0 Para que un emprendimiento se convierta en empresa, es necesario que el emprendedor cuente con capital (propio o de terceros), capacidad de gestión y una propuesta de valor clara. Esta transformación lo convierte en empresario, es decir, en un agente activo que asume riesgos, lidera procesos productivos y dinamiza el tejido económico y social.
 
       
       separador
@@ -245,19 +246,18 @@
         h2 1.2 Ecosistema de emprendimiento
 
       .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
-        .col-lg-5.col-md-9.col-10
+        .col-lg-6.col-md-9.col-10
           img.mb-lg-0.mb-4(src="@/assets/curso/tema1/15.png", alt="Descripción imagen")
-        .col-lg-7
-          .row.justify-content-center.align-items-center.mb-3
-            .col-lg-2
-              img.d-none.d-lg-block(src="@/assets/curso/tema1/17.svg", alt="Descripción imagen")
-            .col-lg-10
-              p.mb-0 Comprender el ecosistema de emprendimiento implica analizar las múltiples interacciones que configuran el entorno donde nacen y se desarrollan las iniciativas empresariales. Según Mason y Brown (2014), un ecosistema de emprendimiento está compuesto por una red interconectada de emprendedores, tanto potenciales como activos, organizaciones de apoyo empresarial (como empresas consolidadas, 
-          p.mb-0 fondos de capital de riesgo, bancos y ángeles inversionistas), instituciones académicas y gubernamentales (universidades, agencias públicas, organismos financieros), así como procesos de monitoreo que permiten evaluar la dinámica emprendedora (por ejemplo: la tasa de creación de empresas, el número de compañías de alto crecimiento y el porcentaje de éxito empresarial). 
+        .col-lg-6
+          p.mb-0 Comprender el ecosistema de emprendimiento implica analizar las múltiples interacciones que configuran el entorno donde nacen y se desarrollan las iniciativas empresariales. Según Mason y Brown (2014), un ecosistema de emprendimiento está compuesto por una red interconectada de emprendedores, tanto potenciales como activos, organizaciones de apoyo empresarial (como empresas consolidadas, fondos de capital de riesgo, bancos y ángeles inversionistas), instituciones académicas y gubernamentales (universidades, agencias públicas, organismos financieros), así como procesos de monitoreo que permiten evaluar la dinámica emprendedora (por ejemplo: la tasa de creación de empresas, el número de compañías de alto crecimiento y el porcentaje de éxito empresarial). 
 
-      p.mb-4(data-aos="fade-right") Todos estos actores y mecanismos interactúan, tanto de manera formal como informal, con el objetivo de facilitar, conectar y orientar el desempeño emprendedor en una región determinada.
-      p.mb-lg-5.mb-4(data-aos="fade-left") Por su parte, Isenberg, (2010) propone un enfoque estructurado del ecosistema emprendedor, dividiéndolo en seis dominios fundamentales que permiten entender de forma integral el entorno que influye en la creación de empresas. Estos dominios actúan de manera interdependiente para fomentar la generación de valor económico y social, tanto para el emprendedor como para su comunidad y país. Los seis dominios son:
-
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          .bg222.p-4.mb-0
+            p.mb-4(data-aos="fade-right") Todos estos actores y mecanismos interactúan, tanto de manera formal como informal, con el objetivo de facilitar, conectar y orientar el desempeño emprendedor en una región determinada.
+            p.mb-0(data-aos="fade-left") Por su parte, Isenberg, (2010) propone un enfoque estructurado del ecosistema emprendedor, dividiéndolo en seis dominios fundamentales que permiten entender de forma integral el entorno que influye en la creación de empresas. Estos dominios actúan de manera interdependiente para fomentar la generación de valor económico y social, tanto para el emprendedor como para su comunidad y país. Los seis dominios son:
+        .col-lg-2
+          img.d-none.d-lg-block(src="@/assets/curso/tema1/17.svg", alt="Descripción imagen")
       .row.justify-content-center.align-items.mb-lg-4.mb-0(data-aos="fade-right")
         .col-lg-6.mb-4
           LineaTiempoD.color-acento-botones.activo

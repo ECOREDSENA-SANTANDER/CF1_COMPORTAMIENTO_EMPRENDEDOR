@@ -64,19 +64,25 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Clasificación y formalización de las empresas en Colombia',
+        titulo: 'Herramienta de análisis FODA',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '4.1',
-            titulo: 'Formalización empresarial en Colombia',
-            hash: 't_4_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
+        titulo: 'Clasificación y formalización de las empresas en Colombia',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Formalización empresarial en Colombia',
+            hash: 't_5_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
         titulo: 'Entidades que apoyan el emprendimiento en Colombia',
         desarrolloContenidos: true,
       },
@@ -284,8 +290,10 @@ export default {
       link: 'https://youtu.be/Kt9g3lXgsOg',
     },
     {
-      referencia: 'Cámara de Comercio de Bogotá. Formalice su empresa. CCB.',
-      link: 'https://www.ccb.org.co/Cree-su-empresa/Formalice-su-empresa',
+      referencia:
+        'Cámara de Comercio de Bogotá. Conoce la forma jurídica más apropiada a tu idea de negocio. CCB.',
+      link:
+        'https://www.ccb.org.co/servicios/crea-tu-empresa/constituye-tu-empresa/selecciona-la-forma-juridica',
     },
     {
       referencia:
