@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Camino emprendedor',
+    Name: 'Ser emprendedor',
     Description:
       'Ser emprendedor implica más que iniciar un negocio: es asumir una actitud proactiva ante la vida, con visión estratégica, creatividad y capacidad de transformar ideas en oportunidades sostenibles. A través del autoconocimiento, el análisis del entorno y el desarrollo de habilidades clave, el emprendedor se convierte en agente de cambio social y económico.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),

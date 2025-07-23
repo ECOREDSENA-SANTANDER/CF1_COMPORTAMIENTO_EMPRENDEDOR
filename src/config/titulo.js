@@ -1,1 +1,1 @@
-module.exports = 'Camino emprendedor'
+module.exports = 'Ser emprendedor'

@@ -89,87 +89,86 @@
                 p.mb-4 Son riesgos o situaciones externas que podrían afectar negativamente el proyecto emprendedor, como la competencia, inestabilidad económica o cambios tecnológicos. Detectarlas a tiempo permite prevenir y adaptarse.
                 h4.mb-0 Preguntas guía: ¿Qué factores externos pueden afectar mi idea?, ¿qué riesgos debo anticipar?
   
-
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
-      .col-lg-10
-        .row.justify-content.align-items-center.mb-0
-          .col-lg-7(alt='La tabla presenta las cuatro áreas clave del análisis FODA aplicado al emprendedor: fortalezas, que permiten reconocer sus características destacadas; debilidades, que señalan aspectos personales o profesionales por mejorar; oportunidades, que hacen referencia a factores externos que pueden impulsar un nuevo proyecto; y amenazas, que corresponden a situaciones que pueden dificultar su desarrollo, como circunstancias personales o sociales.')
-            .titulo-sexto.color-secundario.mb-5
-              h5 Tabla 1. 
-              | Áreas por identificar
-            .row.justify-content-center.mb-0
-              .col-lg-6.col-md-6.col-10.mb-lg-0.mb-4
-                .bg15.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white FORTALEZAS
-                .bg8.p-5.mb-lg-0
-                  p.mb-0.text-center Permite identificar las características en las cuales se destaca el emprendedor.
-                .bg11.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white OPORTUNIDADES
-                .bg13.p-5.mb-lg-0
-                  p.mb-0.text-center Permite identificar oportunidades, tendencias, elementos externos, que pueden favorecer el emprendimiento a iniciar.
-              .col-lg-6.col-md-6.col-10.mb-lg-0.mb-4
-                .bg9.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white DEBILIDADES
-                .bg12.p-lg-4.he3.mb-lg-0.p-4
-                  p.mb-0.text-center.mb-3.my-2.my-lg-4.mb-lg-4 Permite identificar los puntos negativos o aspectos de mejora del emprendedor, pueden ser de índole personal o profesional.
-                .bg16.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white AMENAZAS
-                .bg14.p-lg-4.ce3.mb-lg-0.p-4
-                  p.mb-0.text-center.my-lg-2 Detecta aquellas situaciones, acontecimientos que pueden afectar el correcto desarrollo del proyecto, como motivos personales, aspectos de la vida familiar, social, emocional, entre otros.
-                     
-    
-          .col-lg-5(data-aos="fade-right")
-            img.img-a.img-t.mb-3(src='@/assets/curso/tema3/15.svg' alt="")
-            .row.justify-content-center.align-items-center.mb-0
-              .col-lg-11
-                p.mb-0 Después de analizar cada uno de los elementos del FODA (fortalezas, debilidades, oportunidades y amenazas), el siguiente paso es elaborar un plan de acción. Este se construye a partir del cruce entre los factores internos (fortalezas y debilidades) y los factores externos (oportunidades y amenazas). El cruce permite al emprendedor obtener una visión objetiva y estratégica de su situación actual, identificando tanto las áreas de oportunidad que puede aprovechar como las debilidades que necesita mejorar; a partir de este análisis, se pueden definir acciones concretas que fortalezcan su perfil, potencien sus ventajas competitivas y minimicen los riesgos que podrían afectar el desarrollo de su emprendimiento.
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
+      .col-lg-7(alt='La tabla presenta las cuatro áreas clave del análisis FODA aplicado al emprendedor: fortalezas, que permiten reconocer sus características destacadas; debilidades, que señalan aspectos personales o profesionales por mejorar; oportunidades, que hacen referencia a factores externos que pueden impulsar un nuevo proyecto; y amenazas, que corresponden a situaciones que pueden dificultar su desarrollo, como circunstancias personales o sociales.')
+        .titulo-sexto.color-secundario.mb-5
+          h5 Tabla 1. 
+          | Áreas por identifica
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-12
+            .tabla-a.color-acento-contenido
+              table
+                thead
+                  tr
+                    th.am Fortalezas 
+                    th.am Debilidades 
+                tbody
+                  tr
+                    td
+                      .row.justify-content-center.align-items-center.mb-0
+                        .col-lg-10 
+                          p.mb-0 Permite identificar las características en las cuales se destaca el emprendedor. 
+                    td
+                      .row.justify-content-center.align-items-center.mb-0
+                        .col-lg-10 
+                          p.mb-0  Permite identificar los puntos negativos o aspectos de mejora del emprendedor, pueden ser de índole personal o profesional. 
+            .tabla-a.color-acento-contenido
+              table
+                thead
+                  tr
+                    th.am Oportunidades 
+                    th.am Amenazas 
+                tbody
+                  tr
+                    td
+                      .row.justify-content-center.align-items-center.mb-0
+                        .col-lg-10 
+                          p.mb-0 Permite identificar oportunidades, tendencias, elementos externos, que pueden favorecer el emprendimiento a iniciar. 
+                    td 
+                      .row.justify-content-center.align-items-center.mb-0
+                        .col-lg-10 
+                          p.mb-0 Detecta aquellas situaciones, acontecimientos que pueden afectar el correcto desarrollo del proyecto, como motivos personales, aspectos de la vida familiar, social, emocional, entre otros. 
+                  
+      .col-lg-5(data-aos="fade-right")
+        img.img-a.img-t.mb-3(src='@/assets/curso/tema3/15.svg' alt="")
+        p.mb-0 Después de analizar cada uno de los elementos del FODA (fortalezas, debilidades, oportunidades y amenazas), el siguiente paso es elaborar un plan de acción. Este se construye a partir del cruce entre los factores internos (fortalezas y debilidades) y los factores externos (oportunidades y amenazas). El cruce permite al emprendedor obtener una visión objetiva y estratégica de su situación actual, identificando tanto las áreas de oportunidad que puede aprovechar como las debilidades que necesita mejorar; a partir de este análisis, se pueden definir acciones concretas que fortalezcan su perfil, potencien sus ventajas competitivas y minimicen los riesgos que podrían afectar el desarrollo de su emprendimiento.
     
     .titulo-sexto.color-secundario.mb-
       h5 Tabla 2. 
       | Matriz FODA con planes de acción
     
-    .row.justify-content-center.mb-0(data-aos="fade-right")
-      .col-lg-10(alt='La tabla integra el análisis FODA con estrategias de acción. Se identifican fortalezas, debilidades, oportunidades y amenazas del emprendedor, y se relacionan con planes específicos: FO para potenciar fortalezas y oportunidades; DO para superar debilidades aprovechando oportunidades; FA para usar fortalezas frente a amenazas; y DA para reducir debilidades y minimizar amenazas que puedan afectar el emprendimiento.')
-        .row.justify-content-center.mb-0
-          .col-lg-8.mb-lg-0.mb-4.pe-lg-0
-            .bg15.p-3.mb-lg-0
-              h3.mb-0.text-center.text-white FORTALEZAS
-            .bg8.p-5.mb-lg-0
-              p.mb-0.text-center Permiten reconocer las cualidades, habilidades y competencias en las que el emprendedor se destaca, ya sea a nivel personal, profesional o empresarial.
-            .row.justify-content-center.align-items-center
-              .col-lg-6.col-md-6.pe-0.mb-lg-5.mb-0
-                .bg16.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white OPORTUNIDADES
-                .bg8.p-4.mb-lg-0
-                  p.mb-0.text-center Se refieren a factores externos favorables como tendencias, apoyos institucionales o necesidades del entorno, que pueden facilitar el desarrollo del emprendimiento.
-                .bg16.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white AMENAZAS
-                .bg133.p-4.mb-lg-0
-                  p.mb-0.text-center Son situaciones externas o personales que pueden poner en riesgo el avance del proyecto emprendedor, tales como problemas familiares, sociales, económicos o emocionales.
-              .col-lg-6.col-md-6.ps-0.mb-lg-5
-                .bg11.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white Plan de acción FO
-                .bg8.p-4.mb-lg-0
-                  p.mb-lg-4.mb-0.text-center Define estrategias para aprovechar al máximo las fortalezas del emprendedor y así sacar el mayor provecho de las oportunidades del entorno.
-                .bg11.p-3.mb-lg-0
-                  h3.mb-0.text-center.text-white Plan de acción FA
-                .bg134.p-4.mb-lg-0
-                  p.mb-4.text-center Diseña estrategias para utilizar las fortalezas personales o profesionales como herramientas para enfrentar o reducir posibles amenazas.
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-12(alt='La tabla presenta una matriz FODA con sus respectivos planes de acción, organizada en cinco columnas: categoría, descripción, plan de acción y descripción del plan. Cada fila corresponde a uno de los cuatro elementos del análisis FODA: fortalezas, debilidades, oportunidades y amenazas. Para cada elemento se describe su significado y se propone un plan estratégico que indica cómo aprovechar o mitigar sus efectos en el desarrollo de un proyecto emprendedor.')
+        .tabla-a.color-acento-contenido
+          table
+            thead
+              tr
+                th Categoría 
+                th Descripción 
+                th Plan de acción 
+                th Descripción del plan 
+            tbody
+              tr
+                td Fortalezas 
+                td Permiten reconocer las cualidades, habilidades y competencias en las que el emprendedor se destaca, ya sea a nivel personal, profesional o empresarial. 
+                td Plan de acción FO 
+                td Define estrategias para aprovechar al máximo las fortalezas del emprendedor y sacar el mayor provecho de las oportunidades del entorno. 
+              tr
+                td Debilidades 
+                td Identifican las limitaciones, carencias o aspectos que requieren mejora en el emprendedor, tanto en el ámbito personal como profesional. 
+                td Plan de acción DO 
+                td Plantea estrategias para superar las debilidades internas del emprendedor, aprovechando las oportunidades externas. 
+              tr
+                td Oportunidades 
+                td Se refieren a factores externos favorables como tendencias, apoyos institucionales o necesidades del entorno, que pueden facilitar el desarrollo del emprendimiento. 
+                td Plan de acción FA 
+                td Diseña estrategias para utilizar las fortalezas personales o profesionales como herramientas para enfrentar o reducir posibles amenazas. 
+              tr
+                td Amenazas 
+                td Son situaciones externas o personales que pueden poner en riesgo el avance del proyecto emprendedor; se asocian con problemas familiares, emocionales, económicos o de conocimiento.
+                td Plan de acción DA 
+                td Propone estrategias para mitigar los efectos de las debilidades del emprendedor y prevenir el impacto de las amenazas que podrían afectar el desarrollo del proyecto. 
           
-          .col-lg-4.ps-lg-0
-            .bg91.p-3.mb-lg-0
-              h3.mb-0.text-center.text-white.tx DEBILIDADES
-            .bg8.p-lg-4.mb-lg-0.p-4
-              p.mb-0.text-center Identifican las limitaciones, carencias o aspectos que requieren mejora en el emprendedor, tanto en el ámbito personal como profesional.
-            .bg16.p-3.mb-lg-0
-              h3.mb-0.text-center.text-white Plan de acción DO
-            .bg8.mb-lg-0.p-4
-              p.mb-4.text-center Plantea estrategias para superar debilidades internas del emprendedor, aprovechando las oportunidades externas disponibles.
-            .bg16.p-3.mb-lg-0
-              h3.mb-0.text-center.text-white Plan de acción DA
-            .bg13.mb-lg-0.p-4
-              p.mb-0.text-center Propone estrategias para mitigar los efectos de las debilidades del emprendedor y prevenir el impacto de las amenazas que podrían afectar el desarrollo del proyecto.
-
 </template>
 
 <script>
