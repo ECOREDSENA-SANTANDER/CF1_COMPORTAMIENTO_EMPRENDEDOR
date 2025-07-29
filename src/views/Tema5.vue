@@ -115,7 +115,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 Para ampliar y profundizar en la clasificación y características de cada tipo de sociedad comercial en Colombia, lo invitamos a consultar el siguiente enlace, donde encontrará una descripción detallada de cada modalidad societaria, sus requisitos legales, ventajas, limitaciones y su aplicación según el tipo de actividad económica y nivel de responsabilidad de los socios.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://youtu.be/IvTbUlDBrrg" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/ttQdHXwUkcI" target="_blank")
                 span Ir al sitio
                 i.fas.fa-video
 
@@ -173,7 +173,7 @@
               p.mb-4 Formalizar una empresa no solo es una obligación legal, sino también una estrategia para fortalecer su legitimidad, facilitar su crecimiento, aumentar su competitividad y garantizar su sostenibilidad en el tiempo como parte del tejido productivo nacional. Diríjase al siguiente enlace y complemente la información sobre:
               h4.mb-0 Formalización de una empresa asociativa de trabajo.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://youtu.be/nun9Wpadlf4" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/0m-UGPaZIjo" target="_blank")
                 span Ir al sitio
                 i.fas.fa-video
 

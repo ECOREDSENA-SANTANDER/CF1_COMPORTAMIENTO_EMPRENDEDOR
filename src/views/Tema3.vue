@@ -29,7 +29,7 @@
               h4.mb-2.ver Como complemento a esta información sobre emprendimiento, se invita a consultar el siguiente video, en el cual se abordan de manera clara y didáctica los aspectos fundamentales del emprendimiento.
               p.mb-0 Se recomienda visitar como apoyo para fortalecer los conocimientos.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://youtu.be/7pWonVKZPAA" target="_blank")
+              a.boton.color-acento-botones(href="https://youtu.be/lXyCyo2QPZQ" target="_blank")
                 span Ir al sitio
                 i.fas.fa-video
 
