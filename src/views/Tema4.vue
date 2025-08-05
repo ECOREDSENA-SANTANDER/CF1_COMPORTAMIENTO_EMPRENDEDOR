@@ -58,7 +58,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/tema3/14.png', alt='')
         .col-lg-7.p-5(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") #[b El análisis FODA]  Personal es mucho más que un ejercicio diagnóstico: es una herramienta poderosa de autoconocimiento, planificación y crecimiento. Permite al emprendedor tomar conciencia de su punto de partida, prepararse con mayor solidez y orientar su energía hacia la construcción de un negocio viable, sostenible y alineado con sus capacidades y aspiraciones.
+          p.mb-0(data-aos="fade-left") #[b El análisis FODA] personal es mucho más que un ejercicio diagnóstico: es una herramienta poderosa de autoconocimiento, planificación y crecimiento. Permite al emprendedor tomar conciencia de su punto de partida, prepararse con mayor solidez y orientar su energía hacia la construcción de un negocio viable, sostenible y alineado con sus capacidades y aspiraciones.
 
     .row.mb-5
       .col-lg-12.mb-0(data-aos="fade-right")
@@ -93,7 +93,7 @@
       .col-lg-7(alt='La tabla presenta las cuatro áreas clave del análisis FODA aplicado al emprendedor: fortalezas, que permiten reconocer sus características destacadas; debilidades, que señalan aspectos personales o profesionales por mejorar; oportunidades, que hacen referencia a factores externos que pueden impulsar un nuevo proyecto; y amenazas, que corresponden a situaciones que pueden dificultar su desarrollo, como circunstancias personales o sociales.')
         .titulo-sexto.color-secundario.mb-5
           h5 Tabla 1. 
-          | Áreas por identifica
+          | Áreas por identificar
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
             .tabla-a.color-acento-contenido

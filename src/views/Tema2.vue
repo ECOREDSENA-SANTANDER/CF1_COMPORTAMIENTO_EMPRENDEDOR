@@ -18,7 +18,7 @@
             p.mb-2 Entre 2017 y 2022, la intención emprendedora en Colombia entre adultos de 18 a 64 años cayó del 57 % al 21,2 %, evidenciando una disminución sostenida. Esta tendencia refleja un menor interés por emprender, posiblemente asociado a factores como la incertidumbre económica, el acceso limitado a financiamiento, las brechas en educación emprendedora y las condiciones desfavorables del mercado.
         .bg99.p-3.mb-0
           p.mb-0.mx-lg-1(data-aos="fade-right") Sin embargo, según el informe GEM Colombia 2023 - 2024, la intención emprendedora entre adultos colombianos mostró una recuperación notable a partir del año 2022, alcanzando un 28 %. Aunque en 2023 se evidenció nuevamente un descenso, esta vez más moderado, situándose en un 23,5 %, esta tendencia señala una dinámica marcada por altibajos en la actividad emprendedora, con fluctuaciones que presentan desafíos y oportunidades para el análisis y la comprensión de los factores que influyen en el comportamiento emprendedor a lo largo del tiempo.
-    p.mb-4(data-aos="fade-left") A nivel regional, según el Índice de Contexto Empresarial (NECI) del Global #[em #[b Entrepreneurship Monitor]] (GEM, 2019), Colombia ocupa el séptimo lugar entre los países de América del Norte, Centroamérica y Suramérica en términos de favorabilidad para la creación de empresas, de acuerdo con una escala donde puntuaciones cercanas a cero reflejan entornos poco propicios y valores cercanos a diez indican condiciones altamente favorables para el emprendimiento.
+    p.mb-4(data-aos="fade-left") A nivel regional, según el Índice de Contexto Empresarial (NECI) del Global #[em Entrepreneurship Monitor] (GEM, 2019), Colombia ocupa el séptimo lugar entre los países de América del Norte, Centroamérica y Suramérica en términos de favorabilidad para la creación de empresas, de acuerdo con una escala donde puntuaciones cercanas a cero reflejan entornos poco propicios y valores cercanos a diez indican condiciones altamente favorables para el emprendimiento.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-6.order-lg-1.order-md-1.order-1
@@ -49,7 +49,7 @@
     .bg2.p-2.mb-4(data-aos="fade-right")
       h3.mb-0.ps-3.pe-3 Los principales factores que obstaculizan la actividad empresarial
 
-    p.mb-4(data-aos="fade-left") Según el estudio Global #[em #[b Entrepreneurship Monitor]] (GEM) Colombia 2019, los principales factores que obstaculizan la actividad empresarial en el país son:
+    p.mb-4(data-aos="fade-left") Según el estudio Global #[em Entrepreneurship Monitor] (GEM) Colombia 2019, los principales factores que obstaculizan la actividad empresarial en el país son:
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4
       .col-lg-5
