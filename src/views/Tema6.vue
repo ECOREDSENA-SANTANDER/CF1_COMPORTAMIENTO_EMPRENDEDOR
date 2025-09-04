@@ -180,7 +180,7 @@
           .col-lg-7.p-5.p-lg-5(data-aos="fade-left")
             .bg1.p-1.mb-lg-5.mb-4
               h4.mb-0.text-white(data-aos="fade-left") Estas unidades operan como centros de transferencia de conocimiento y fortalecen el vínculo universidad-empresa-sociedad.
-            p.mb-0 El fortalecimiento del ecosistema de emprendimiento en Colombia es resultado de un entramado de actores públicos, privados, académicos y sociales que, de forma articulada, ofrecen recursos, formación y acompañamiento a los emprendedores. 
+            p.mb-4 El fortalecimiento del ecosistema de emprendimiento en Colombia es resultado de un entramado de actores públicos, privados, académicos y sociales que, de forma articulada, ofrecen recursos, formación y acompañamiento a los emprendedores. 
             p.mb-0 El acceso a estas entidades y programas no solo mejora las probabilidades de éxito empresarial, sino que contribuye al desarrollo territorial, la generación de empleo y la transformación productiva del país.
 
 </template>

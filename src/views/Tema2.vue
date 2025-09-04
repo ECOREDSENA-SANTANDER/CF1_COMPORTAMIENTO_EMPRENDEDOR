@@ -18,20 +18,25 @@
             p.mb-2 Entre 2017 y 2022, la intención emprendedora en Colombia entre adultos de 18 a 64 años cayó del 57 % al 21,2 %, evidenciando una disminución sostenida. Esta tendencia refleja un menor interés por emprender, posiblemente asociado a factores como la incertidumbre económica, el acceso limitado a financiamiento, las brechas en educación emprendedora y las condiciones desfavorables del mercado.
         .bg99.p-3.mb-0
           p.mb-0.mx-lg-1(data-aos="fade-right") Sin embargo, según el informe GEM Colombia 2023 - 2024, la intención emprendedora entre adultos colombianos mostró una recuperación notable a partir del año 2022, alcanzando un 28 %. Aunque en 2023 se evidenció nuevamente un descenso, esta vez más moderado, situándose en un 23,5 %, esta tendencia señala una dinámica marcada por altibajos en la actividad emprendedora, con fluctuaciones que presentan desafíos y oportunidades para el análisis y la comprensión de los factores que influyen en el comportamiento emprendedor a lo largo del tiempo.
-    p.mb-4(data-aos="fade-left") A nivel regional, según el Índice de Contexto Empresarial (NECI) del Global #[em Entrepreneurship Monitor] (GEM, 2019), Colombia ocupa el séptimo lugar entre los países de América del Norte, Centroamérica y Suramérica en términos de favorabilidad para la creación de empresas, de acuerdo con una escala donde puntuaciones cercanas a cero reflejan entornos poco propicios y valores cercanos a diez indican condiciones altamente favorables para el emprendimiento.
+    p.mb-4(data-aos="fade-left") A nivel regional, según el Índice del Contexto Empresarial del Global #[em Entrepreneurship Monitor] (NECI) 2023/2024, Colombia ocupa el séptimo lugar entre los países de América del Norte, Centroamérica y Suramérica en términos de favorabilidad para la creación de empresas, de acuerdo con una escala donde puntuaciones cercanas a cero reflejan entornos poco propicios y valores cercanos a diez indican condiciones altamente favorables para el emprendimiento.
     
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-6.order-lg-1.order-md-1.order-1
-        .titulo-sexto.color-secundario.mb-3
-          h5 Figura 1. 
-          | Informe GEM Colombia
-        img.mb-3(src='@/assets/curso/tema2/3.svg', alt='La figura presenta un mapa de América con porcentajes asociados a distintos países, correspondientes al Informe GEM sobre el contexto para emprender. Colombia aparece con un 4.2 %, ubicándose en el séptimo lugar, entre países como Ecuador (4.1 %), Brasil (3.9 %) y México (4.7 %). Estados Unidos y Canadá que registran los porcentajes más altos (5.3 % y 5.1 %, respectivamente), mientras que Puerto Rico presenta el valor más bajo (3.1 %).')
+    .bgp.mb-2.p-4
+      .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+        .col-lg-12
+          .titulo-sexto.color-secundario.mb-3
+            h5 Figura 1. 
+            | Informe GEM Colombia
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-10
+          img.mb-3(src='@/assets/curso/tema2/3.svg', alt='La figura presenta un mapa de América con porcentajes asociados a distintos países, correspondientes al Informe GEM sobre el contexto para emprender. Colombia aparece con un 4.2 %, ubicándose en el séptimo lugar, entre países como Ecuador (4.1 %), Brasil (3.9 %) y México (4.7 %). Estados Unidos y Canadá que registran los porcentajes más altos (5.3 % y 5.1 %, respectivamente), mientras que Puerto Rico presenta el valor más bajo (3.1 %).')
       
-      .col-lg-6.order-lg-2.order-md-3.order-3
-        .titulo2.mb-lg-5.mb-md-4.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
-          h3.mb-0.mx-4.text-white Factores que respaldan la intención emprendedora:
-        
+    figcaption.mb-5 Fuente: https://gemcolombia.org/
+      
+    .titulo2.mb-lg-5.mb-md-4.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-4.text-white Factores que respaldan la intención emprendedora:
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
         ul.lista-ul
           li.d-flex.mb-4
             i.fas.fa-circle-check
@@ -43,14 +48,12 @@
             i.fas.fa-circle-check
             p.mb-0 #[b Apoyo institucional:] iniciativas gubernamentales y de organizaciones como iNNpulsa Colombia (nombre oficial de la entidad colombiana de apoyo al emprendimiento y la innovación), han fortalecido la mentalidad emprendedora, con programas que han beneficiado a más de 54.833 colombianos y una inversión superior a 42.000 millones de pesos para impulsar las micro, pequeñas y medianas empresas (MiPymes) en todo el país.
       
-      figcaption.mb-5.order-lg-3.order-md-2.order-2 Fuente: https://gemcolombia.org/
 
 
     .bg2.p-2.mb-4(data-aos="fade-right")
       h3.mb-0.ps-3.pe-3 Los principales factores que obstaculizan la actividad empresarial
 
-    p.mb-4(data-aos="fade-left") Según el estudio Global #[em Entrepreneurship Monitor] (GEM) Colombia 2019, los principales factores que obstaculizan la actividad empresarial en el país son:
-
+    p.mb-4(data-aos="fade-left") Según el estudio Global #[em Entrepreneurship Monitor] (GEM) se sigue publicando cada año y su última publicación es 2023, los principales factores que obstaculizan la actividad empresarial en el país son:
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4
       .col-lg-5
         ol.lista-ol--cuadro.lista-ol--separador

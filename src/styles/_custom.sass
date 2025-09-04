@@ -241,6 +241,12 @@ figcaption
 .pasos-b__header__btn--right i,
   color: white
 
+.bgp
+  background-color: #F3F9FF
+
+.bgve
+  background-color: #E9F2E5
+
 
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
     background-color: #D6E6CE
@@ -503,13 +509,44 @@ figcaption
   border-radius: 0px 0px 40px 0px
  
 
-
-.tabla-a.color-acento-contenido table
+.tabla-a.color-acento-contenido table 
   min-width: 470px !important
 .tabla-a.color-acento-contenido th 
   background-color: #FEF6D9
   border-color: #FEF6D9
-
+.tabla-a.color-acento-contenido 
+  width: 100%
+  overflow-x: auto
+  margin: 0 auto
+.tabla-a.color-acento-contenido table 
+  width: 100%
+  table-layout: fixed
+  border-collapse: collapse
+.tabla-a.color-acento-contenido td,
+.tabla-a.color-acento-contenido th 
+  word-wrap: break-word
+  hyphens: auto
+  overflow-wrap: break-word
+  padding: 12px 8px
+  vertical-align: center
+.tabla-a.color-acento-contenido td 
+  width: 33.33%
+@media (max-width: 768px) 
+  .tabla-a.color-acento-contenido table 
+    min-width: 400px !important
+  .tabla-a.color-acento-contenido td,
+  .tabla-a.color-acento-contenido th 
+    padding: 10px 6px
+    font-size: 13px
+@media (max-width: 480px) 
+  .tabla-a.color-acento-contenido table 
+    min-width: 350px !important
+  .tabla-a.color-acento-contenido td,
+  .tabla-a.color-acento-contenido th 
+    padding: 8px 5px
+    font-size: 12px
+    line-height: 1.4
+  
 
 .bg17
   background-color: #FFF2E1

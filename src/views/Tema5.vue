@@ -134,14 +134,11 @@
         br
         p.mb-0(data-aos="fade-right") Este proceso implica el cumplimiento de una serie de requisitos legales y administrativos definidos por la normatividad vigente, además requiere la participación de entidades clave como la #[b Dirección de Impuestos y Aduanas Nacionales (DIAN), las Cámaras de Comercio y las entidades bancarias], que intervienen en el registro mercantil, la identificación fiscal y la vinculación al sistema financiero.
 
-  
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
-      .col-lg-5
-        .titulo.mb-lg-0.mb-md-4.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
-          h3.mb-0.mx-4.text-white Pasos para formalizar una empresa
-      .col-lg-7
-        p.mb-0 A continuación, se describen algunos de los pasos esenciales para formalizar un emprendimiento en Colombia:
+    .titulo.mb-lg-5.mb-md-4.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
+      h3.mb-0.mx-4.text-white Pasos para formalizar una empresa
+
+    p.mb-4 A continuación, se describen algunos de los pasos esenciales para formalizar un emprendimiento en Colombia:
 
     .row.justify-content-center.align-items.mb-lg-4.mb-0(data-aos="fade-right")
       .col-lg-6.mb-4

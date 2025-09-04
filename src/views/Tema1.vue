@@ -110,7 +110,7 @@
       
           .tarjeta.tarjeta--gris.ul.p-lg-4.p-3.mb-0(data-aos="fade-right")
             PasosB.color-acento-contenido
-              .row.justify-content-center.align-items-end(titulo="Paso 1")
+              .row.justify-content-center.align-items-end.disabled(titulo="Paso 1")
                 .col-lg-7
                   .bg2.p-2.mb-4
                     h4.mb-0.ps-3.pe-3 A. Fases de la actividad económica
@@ -148,7 +148,7 @@
                     ul.lista-ul
                       li.d-flex.mb-4
                         i.fas.fa-circle-check
-                        p.mb-0 #[b Capacidades tecnológicas o conocimiento] (factor empresarial o innovación): se refiere a la capacidad de organizar los otros factores productivos, generar valor agregado e introducir mejoras tecnológicas o procesos innovadores. A veces también se denomina #[b “habilidad empresarial”] o #[b “factor humano avanzado”].
+                        p.mb-0 #[b Capacidades tecnológicas o conocimiento (factor empresarial o innovación):] se refiere a la capacidad de organizar los otros factores productivos, generar valor agregado e introducir mejoras tecnológicas o procesos innovadores. A veces también se denomina #[b “habilidad empresarial”] o #[b “factor humano avanzado”].
               
               .row.justify-content-center.align-items-end(titulo="Paso 3")
                 .col-lg-7
@@ -215,7 +215,7 @@
                   .col-lg-11
                     p.mb-0 Para crecer, las empresas pueden optar por estrategias de expansión interna (aumento de producción, ventas, innovación) o externa (acceso a nuevos mercados, fusiones, alianzas estratégicas).
       
-              .row.justify-content-center.align-items-end(titulo="Paso 6")
+              .row.justify-content-center.align-items-end.disabled(titulo="Paso 6")
                 .col-lg-7
                   .bg2.p-2.mb-4
                     h4.mb-0.ps-3.pe-3 F. Elementos clave para la creación de una empresa
@@ -277,14 +277,14 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-2.ver En conjunto, estos elementos conforman un entorno propicio o limitante para el desarrollo de iniciativas emprendedoras sostenibles e innovadoras.
+                p.mb-3 En conjunto, estos elementos conforman un entorno propicio o limitante para el desarrollo de iniciativas emprendedoras sostenibles e innovadoras.
                 p.mb-lg-0.mb-3 Complemente la información con los siguientes documentos: 
               .col-sm-auto
                 a.boton.color-acento-botones.mar.mb-lg-0.mb-4(href="https://zajuna.sena.edu.co/Repositorio/Titulada/institution/SENA/Transversales/OVA/Emprendimiento/CF1_Emprendimiento//downloads/Temas_4_Ecosistema_de_emprendimiento.pdf" target="_blank")
-                  span Descargar
+                  span Descarga 1
                   i.fas.fa-file-download
                 a.boton.color-acento-botones(href="https://zajuna.sena.edu.co/Repositorio/Titulada/institution/SENA/Transversales/OVA/Emprendimiento/CF1_Emprendimiento//downloads/dominios.pdf" target="_blank")
-                  span Descargar
+                  span Descarga 2
                   i.fas.fa-file-download
                 
 

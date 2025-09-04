@@ -7,16 +7,18 @@
         span 3
       h1 Perfil del emprendedor y habilidades clave
 
-    .row.justify-content-center.align-items-center.mb-2(data-aos="fade-right")
-      .col-lg-4
-        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema3/1.svg', alt='Imagen decorativa')
+    
+    .row.justify-content-center.align-items-center.mb-lg-4.mb-0(data-aos="fade-right")
+      .col-lg-9.mb-0
         p.mb-4 Comprender el fenómeno del emprendimiento, en Colombia y en el mundo, exige reconocer que emprender es mucho más que crear una empresa: es una actitud ante la vida. Emprender implica tomar la decisión de hacer realidad un sueño, sabiendo que para alcanzarlo es indispensable prepararse, conocer el entorno y estar dispuesto a construir el propio camino.
-      .col-lg-3.col-md-7.col-9
-        img.mb-lg-0.mb-4(src='@/assets/curso/tema3/2.svg', alt='Imagen decorativa')
-      .col-lg-5
-        .bg3.p-4.mb-lg-0.mb-4
-          p.mb-0.my-lg-4 Desde la perspectiva de la administración, el emprendedor es quien identifica una necesidad, crea una solución innovadora y la transforma en una oportunidad de negocio. En este proceso, no solo busca beneficios económicos, sino también enfrenta retos y asume riesgos, elementos esenciales para lograr los objetivos que se propone.
-
+        .bg17.mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3.d-none.d-lg-block(data-aos="fade-right"): img(src='@/assets/curso/tema3/2.svg', alt='')
+            .col-lg-7.p-lg-5.p-4(data-aos="fade-left")
+              p.mb-0.mx-lg-0.mx-3 Desde la perspectiva de la administración, el emprendedor es quien identifica una necesidad, crea una solución innovadora y la transforma en una oportunidad de negocio. En este proceso, no solo busca beneficios económicos, sino también enfrenta retos y asume riesgos, elementos esenciales para lograr los objetivos que se propone.  
+      .col-lg-3.mb-lg-4
+        img.mb-lg-0.mb-4.d-none.d-lg-block(src='@/assets/curso/tema3/19.png', alt='Imagen decorativa')
+    
     p.mb-4(data-aos="fade-left") Ser emprendedor implica cultivar habilidades como la resiliencia, la confianza en sí mismo, la capacidad de fijarse metas ambiciosas y el liderazgo positivo. Además, los emprendedores sienten un fuerte impulso de autorrealización y tienen la habilidad de evaluar constantemente su progreso, aprender de sus errores y adaptarse al cambio.
 
     .tarjeta.color-acento-conten.b2.p-4.mb-lg-5.mb-4.mb-md-5(data-aos="fade-right")
@@ -26,7 +28,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-2.ver Como complemento a esta información sobre emprendimiento, se invita a consultar el siguiente video, en el cual se abordan de manera clara y didáctica los aspectos fundamentales del emprendimiento.
+              p.mb-3 Como complemento a esta información sobre emprendimiento, se invita a consultar el siguiente video, en el cual se abordan de manera clara y didáctica los aspectos fundamentales del emprendimiento.
               p.mb-0 Se recomienda visitar como apoyo para fortalecer los conocimientos.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://youtu.be/lXyCyo2QPZQ" target="_blank")
@@ -71,20 +73,17 @@
       .col-lg-5.col-md-9.col-10
         img.box(src='@/assets/curso/tema3/4.png', alt='Imagen decorativa')
 
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5
-        .titulo2.mb-lg-0.mb-md-4.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
-          h3.mb-0.mx-4.text-white Principales habilidades del emprendedor
-      .col-lg-7.mb-lg-0.mb-0
-        p.mb-0 A continuación, se describen las habilidades esenciales que debe desarrollar un emprendedor exitoso:
-    
-    
+
+    .titulo2.mb-lg-0.mb-md-4.mb-4.ps-2.pe-2.pe-lg-2.ps-lg-5.pe-md-0.ps-md-5(data-aos="fade-right")
+     img(src='@/assets/curso/tema1/5.svg', alt='Imagen decorativa')
+     h3.mb-0.mx-4.text-white Principales habilidades del emprendedor
+
     .row.fondo3.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
       .col-lg-12
     
         .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
           .col-lg-3.col-md-5.col-8.mb-4
+            p.mb-0 A continuación, se describen las habilidades esenciales que debe desarrollar un emprendedor exitoso:
             img.d-none.d-lg-block(src='@/assets/curso/tema3/5.png', alt='')
           .col-lg-9.mb-0
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
@@ -104,7 +103,7 @@
                 .col-lg-12
                   p.mb-0 El fracaso no se concibe como un obstáculo definitivo, sino como una fuente de aprendizaje. El emprendedor resiliente analiza sus errores, identifica oportunidades de mejora y desarrolla estrategias de ajuste para futuros intentos, asumiendo una actitud proactiva frente a los desafíos.
 
-        .bg17.mb-5
+        .bg17.mb-0
           .row.justify-content-center.align-items-center
             .col-lg-5.col-md-8.col-12.mb-lg-0.mb-3.d-none.d-lg-block(data-aos="fade-right"): img(src='@/assets/curso/tema3/im1.svg', alt='')
             .col-lg-7.p-5(data-aos="fade-left")
@@ -135,16 +134,17 @@
         p.mb-lg-4.mb-2 Por ello, se exploran los principales tipos de motivaciones para emprender, destacando sus características, orígenes y aportes al desarrollo individual y colectivo.  
 
 
-    .tarjeta.color-acento-conten.b2.p-4.mb-4(data-aos="fade-right")
+    .tarjeta.color-acento-conten.b2.p-4.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema2/pdf.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-0.ver Cada emprendimiento nace de una motivación única que impulsa a dar el primer paso. 
-              h4.mb-3.ver Existen diversas razones que llevan a una persona a elegir el camino del emprendimiento.
-              p.mb-0 Descúbralas a continuación: &nbsp;&nbsp;&nbsp;• ¿Cuáles son las motivaciones para emprender?
+              p.mb-0 Cada emprendimiento nace de una motivación única que impulsa a dar el primer paso. 
+              p.mb-3 Existen diversas razones que llevan a una persona a elegir el camino del emprendimiento.
+              p.mb-2 Descúbralas a continuación: 
+              p.mb-0 • ¿Cuáles son las motivaciones para emprender?
             .col-sm-auto
               a.boton.color-acento-botones(href="https://zajuna.sena.edu.co/Repositorio/Titulada/institution/SENA/Transversales/OVA/Emprendimiento/CF1_Emprendimiento//downloads/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
                 span Descargar
