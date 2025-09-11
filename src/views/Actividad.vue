@@ -30,7 +30,7 @@ export default {
           texto:
             'La Ley 2069 de 2020 busca simplificar trámites, promover la inclusión y fortalecer el ecosistema emprendedor en Colombia.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -53,7 +53,7 @@ export default {
           texto:
             'Los bienes de capital se consumen directamente por el consumidor final.',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -76,7 +76,7 @@ export default {
           texto:
             'El análisis FODA permite identificar únicamente factores externos que afectan al emprendimiento.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -99,7 +99,7 @@ export default {
           texto:
             'El perfil del emprendedor se mantiene estático a lo largo del tiempo.',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -122,7 +122,7 @@ export default {
           texto:
             'La empatía, el liderazgo y la resiliencia son habilidades clave que debe desarrollar todo emprendedor.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -145,7 +145,7 @@ export default {
           texto:
             'Las microempresas en Colombia se caracterizan por tener entre 0 y 10 trabajadores.',
           imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -168,7 +168,7 @@ export default {
           texto:
             'Las incubadoras de empresas están dirigidas principalmente a emprendimientos consolidados que buscan escalar internacionalmente.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -191,7 +191,7 @@ export default {
           texto:
             'Según Isenberg, el ecosistema emprendedor se compone de seis dominios interdependientes que afectan la creación de empresas.',
           imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -214,7 +214,7 @@ export default {
           texto:
             'Formalizar una empresa solo sirve para cumplir con la ley, pero no aporta beneficios adicionales.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -237,7 +237,7 @@ export default {
           texto:
             'En Colombia, las sociedades de personas se basan principalmente en la confianza entre los socios.',
           imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',

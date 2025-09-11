@@ -33,18 +33,18 @@
           .crd_hover_txt
             .crd_hover_txt--img
               figure
-                img(src='@/assets/curso/tema3/12.png' alt="")
-            .crd_hover_txt--body.colt
-              h5.mb-3.text-center.text-white Debilidades
-              p.mb-0.text-center.mb-0.txp Es de recordar que las debilidades no solo son a nivel de limitaciones personales, existen otras como: falta de conocimiento técnico, ausencia de sistemas de gestión, falta de experiencia en comercio, un bajo presupuesto económico entre otros. 
-        .col-lg-3.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
                 img(src='@/assets/curso/tema3/13.png' alt="")
             .crd_hover_txt--body.colt
               h5.mb-3.text-center.text-white Oportunidades
               p.mb-0.text-center.mb-0.txp Corresponden a factores externos positivos — tendencias del mercado, avances tecnológicos, necesidades insatisfechas, apoyos institucionales — que pueden ser aprovechados estratégicamente para fortalecer el proyecto.
+        .col-lg-3.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/tema3/12.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center.text-white Debilidades
+              p.mb-0.text-center.mb-0.txp Son las carencias o limitaciones personales que pueden dificultar el desarrollo del emprendimiento. Identificarlas permite establecer planes de mejora y evitar que se conviertan en obstáculos críticos.
         .col-lg-3.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
           .crd_hover_txt
             .crd_hover_txt--img

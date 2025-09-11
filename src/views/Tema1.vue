@@ -105,12 +105,12 @@
         h3.mb-0.mx-4.text-white Elementos y conceptos clave del entorno económico y el desarrollo empresarial
 
 
-      .row.fondo1.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
+      .row.fondo1.overflow-hidden.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
         .col-lg-12
       
           .tarjeta.tarjeta--gris.ul.p-lg-4.p-3.mb-0(data-aos="fade-right")
             PasosB.color-acento-contenido
-              .row.justify-content-center.align-items-end.disabled(titulo="Paso 1")
+              .row.justify-content-center.align-items-end(titulo="Paso 1")
                 .col-lg-7
                   .bg2.p-2.mb-4
                     h4.mb-0.ps-3.pe-3 A. Fases de la actividad económica
@@ -215,7 +215,7 @@
                   .col-lg-11
                     p.mb-0 Para crecer, las empresas pueden optar por estrategias de expansión interna (aumento de producción, ventas, innovación) o externa (acceso a nuevos mercados, fusiones, alianzas estratégicas).
       
-              .row.justify-content-center.align-items-end.disabled(titulo="Paso 6")
+              .row.justify-content-center.align-items-end(titulo="Paso 6")
                 .col-lg-7
                   .bg2.p-2.mb-4
                     h4.mb-0.ps-3.pe-3 F. Elementos clave para la creación de una empresa
@@ -280,10 +280,10 @@
                 p.mb-3 En conjunto, estos elementos conforman un entorno propicio o limitante para el desarrollo de iniciativas emprendedoras sostenibles e innovadoras.
                 p.mb-lg-0.mb-3 Complemente la información con los siguientes documentos: 
               .col-sm-auto
-                a.boton.color-acento-botones.mar.mb-lg-0.mb-4(href="https://zajuna.sena.edu.co/Repositorio/Titulada/institution/SENA/Transversales/OVA/Emprendimiento/CF1_Emprendimiento//downloads/Temas_4_Ecosistema_de_emprendimiento.pdf" target="_blank")
+                a.boton.color-acento-botones.mar.mb-lg-0.mb-4(:href="obtenerLink('/downloads/Ecosistema_de_emprendimiento.pdf')" target="_blank")
                   span Descarga 1
                   i.fas.fa-file-download
-                a.boton.color-acento-botones(href="https://zajuna.sena.edu.co/Repositorio/Titulada/institution/SENA/Transversales/OVA/Emprendimiento/CF1_Emprendimiento//downloads/dominios.pdf" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Dominios.pdf')" target="_blank")
                   span Descarga 2
                   i.fas.fa-file-download
                 

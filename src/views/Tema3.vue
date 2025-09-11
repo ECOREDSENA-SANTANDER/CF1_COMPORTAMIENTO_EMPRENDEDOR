@@ -146,7 +146,7 @@
               p.mb-2 Descúbralas a continuación: 
               p.mb-0 • ¿Cuáles son las motivaciones para emprender?
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://zajuna.sena.edu.co/Repositorio/Titulada/institution/SENA/Transversales/OVA/Emprendimiento/CF1_Emprendimiento//downloads/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Cuales_son_las_motivaciones_para_emprender.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

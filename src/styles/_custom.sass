@@ -217,19 +217,22 @@ figcaption
     position: relative
     cursor: pointer
     transition: border-color 0.2s ease-in-out
+
+
 .fondo1
   background: url('../assets/curso/tema1/fondo1.png')
-  background-size: 99% 100%
+  background-size: cover
   background-repeat: no-repeat
-  background-position: center 
-  margin-inline: -3.4rem
-  @media screen and (max-width: 992px)
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+  margin-inline: -3rem
+  @media only screen and (max-width: 767px)
+    margin-inline: -1.5rem
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
     margin-inline: -3rem
-  @media screen and (max-width: 767px)
-    margin-inline: -2.4rem
-    margin-right: -2rem
-    margin-left: -2rem
-    background-size:  100% 100%
+
 .box
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
   border-radius: 20px
